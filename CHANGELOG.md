@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.2.0] - 2025-008-001 021.015.039.125530400 America/New_York 2025-W031-005 2025-213
+
+- Added Zenodo information to including, but not limited to, CITATION.cff, and README.md.
+- Icon URL/URI https://zenodo.org/badge/DOI/10.5281/zenodo.16710995.svg added.
+- Help Info URI/URL 'https://github.com/PeterCullenBurbery/powershell-functions-005#readme' added.
+
 ## [2.1.0] - 2025-008-001 021.008.037.490185900 America/New_York 2025-W031-005 2025-213
 
 - publishing for Zenodo.
