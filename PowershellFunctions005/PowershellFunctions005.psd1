@@ -13,7 +13,7 @@
     # This will be updated to something like RootModule = ...
 
     # Version number of this module.
-    ModuleVersion     = '2.1.0'
+    ModuleVersion     = '2.2.0'
 
     # Supported PSEditions
     CompatiblePSEditions = @('Desktop')
@@ -114,6 +114,8 @@
 
             # ReleaseNotes of this module
             ReleaseNotes             = @'
+Version 2.2.0: Added Zenodo information to including, but not limited to, CITATION.cff, and README.md. Icon URL/URI https://zenodo.org/badge/DOI/10.5281/zenodo.16710995.svg added. Help Info URI/URL 'https://github.com/PeterCullenBurbery/powershell-functions-005#readme' added.
+
 Version 2.1.0: Publishing for Zenodo.
 
 Version 2.0.0: I moved PowershellFunctions005 from https://github.com/PeterCullenBurbery/powershell-modules to https://github.com/PeterCullenBurbery/powershell-functions-005. URL has been updated accordingly.
@@ -163,7 +165,7 @@ Initial release: includes time zone resolution, ISO week and ordinal date format
     } # End of PrivateData hashtable
 
     # HelpInfo URI of this module
-    # HelpInfoURI = ''
+    HelpInfoURI = 'https://github.com/PeterCullenBurbery/powershell-functions-005#readme'
 
     # Default prefix for commands exported from this module. Override the default prefix using Import-Module -Prefix.
     # DefaultCommandPrefix = ''
