@@ -77,4 +77,4 @@ Maintained with care by Peter Cullen Burbery.
 
 If you use this module in your work, please cite the following:
 
-> Peter Cullen Burbery. (2025). PowerShell Functions 005 (v2.0.0) [Software].
+> Peter Cullen Burbery. (2025). PowerShell Functions 005 (v2.1.0) [Software].
