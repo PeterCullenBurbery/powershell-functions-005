@@ -52,6 +52,7 @@ Import-Module ./PowershellFunctions005/PowershellFunctions005.psd1
 
 ### System Information
 - **`Get-PowerShellVersionDetails`** – Detects feature availability in the current PowerShell session (e.g., ternary operators, parallelism).
+- **`Get-PrimaryIPv4Address`** – Returns the most appropriate non-virtual, connected IPv4 address based on interface preference (e.g., Wi-Fi, Ethernet, Tailscale).
 
 ### File & Directory Utilities
 - **`Get-FileSize`** – Calculates the total size (in bytes) of a file or all files within a directory.
