@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.9.0] - 2025-007-024@002.021 PM
+
+- Added Clean-Path function to normalize and deduplicate the system PATH. This function expands environment variables, removes blank entries, removes case-insensitive duplicates, and broadcasts the updated environment block. Clean-Path complements Add-ToPath and Remove-FromPath by ensuring overall cleanliness of the PATH variable.
+
+## [1.8.2] - 2025-007-021@001.044 PM
+
+- Updated GUID. GUID was the same as PowershellFunctions@https://www.powershellgallery.com/packages/PowershellFunctions/.
+
+## [1.8.1] - 2025-007-021@11.38 AM
+
+- Adds enforcement to block PowerShell 7+ from importing the module. A PSEdition and version check was added to the top of the .psm1 file to prevent accidental usage in PowerShell Core (Powershell 7).
+
+## [1.8.0] - 2025-007-021@11.04 AM
+
+- This release locks the module to Windows PowerShell 5.1 only. Fixes an issue with 0 bytes files. Before, Get-FileSizeHumanReadable "C:\empty-folder" would return " bytes". Now Get-FileSizeHumanReadable "C:\empty-folder" returns "0 bytes".
+
 ## [1.7.3] - 2025-007-018@10.06 PM
 
 - Removed C# components. StartProcessLongFilePath was not working so I removed it.
