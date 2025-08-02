@@ -1,5 +1,7 @@
 # powershell-functions-005
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16710995.svg)](https://doi.org/10.5281/zenodo.16710995)
+
 PowerShell Functions 005  
 Author: Peter Cullen Burbery  
 PowerShell version: 5.1 (Windows PowerShell only) 
@@ -77,4 +79,4 @@ Maintained with care by Peter Cullen Burbery.
 
 If you use this module in your work, please cite the following:
 
-> Peter Cullen Burbery. (2025). PowerShell Functions 005 (v2.1.0) [Software].
+> Peter Cullen Burbery. (2025). PowerShell Functions 005 (v2.2.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.16710995
